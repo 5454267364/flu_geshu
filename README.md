@@ -9,7 +9,7 @@
   
   设置debugEnable=true能够实时看到结果，正式版建议关闭
   
-  ios端初始化暂时只需要传appid和渠道和上传策略（看不懂个推的文档。。。）。
+  ios端初始化暂时只需要,并且只能传appid和渠道和上传策略（看不懂个推的文档。。。）。
   
   ios端获取配置：
   
@@ -31,7 +31,7 @@
   
   3.配置：配置要写在初始化的函数里，只能写在初始化的函数里
   
-  4.SDK权限   [SDK权限配置说明1](http://docs.getui.com/geshu/question/sdk/)  [SDK权限配置说明2](http://docs.getui.com/geshu/start/android/#doc-title-2)
+  4.SDK权限   [SDK权限配置说明1](http://docs.getui.com/geshu/question/sdk/)     [SDK权限配置说明2](http://docs.getui.com/geshu/start/android/#doc-title-2)
   
   5.初始化
   
@@ -41,7 +41,7 @@
 		});
   
   
-  6.注意事项，如果使用不了并且排除了其他原因，尝试导入个推的包（getuiflut: 0.1.7 #个推），我自己有引用个推的包进行推送
+  6.注意事项，如果使用不了并且排除了其他原因，尝试在flutter项目里导入个推的包（getuiflut: 0.1.7 #个推），我自己有引用个推的包进行推送
 ## ios  （详情见---[个推文档](http://docs.getui.com/geshu/start/ios/)）
   0.[ios端注意事项](http://docs.getui.com/geshu/start/ios/#3-1-2-podfile)
   
@@ -55,8 +55,9 @@
   		FluGeshu.initGS(appId: '123qwe').then((res){
   		  print(res);
   		});
-  
-  
+
+
+  4.注意事项，如果使用不了并且排除了其他原因，尝试在flutter项目里导入个推的包（getuiflut: 0.1.7 #个推），我自己有引用个推的包进行推送
 ## Getting Started
 
 This project is a starting point for a Flutter
