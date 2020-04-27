@@ -1,0 +1,30 @@
+PODS:
+  - flu_geshu (0.0.1):
+    - Flutter
+    - GCSDK
+  - Flutter (1.0.0)
+  - GCSDK (2.1.7.0)
+
+DEPENDENCIES:
+  - flu_geshu (from `.symlinks/plugins/flu_geshu/ios`)
+  - Flutter (from `Flutter`)
+  - GCSDK
+
+SPEC REPOS:
+  trunk:
+    - GCSDK
+
+EXTERNAL SOURCES:
+  flu_geshu:
+    :path: ".symlinks/plugins/flu_geshu/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  flu_geshu: 775771148f6ffc629e152061bd6554713b29ddd6
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  GCSDK: 816737e0a604d3a676711597394de19478292d77
+
+PODFILE CHECKSUM: b53031d887446b1139d96bbd3f88d389ed1dc795
+
+COCOAPODS: 1.8.4
